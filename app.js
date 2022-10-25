@@ -12,9 +12,10 @@ var age = 21;
 
 //Exercise 2
 
-fistName = string;
-lastName = string;
-age = number;
+
+fistName = "Max";
+lastName = "Schlapfer";
+age = 21;
 
 
 //Exercise 3
@@ -41,3 +42,14 @@ let author = "Patrick Rothfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+
+let city = "Gilroy";
+let pasttime = "play violin";
+
+let fullName = `${firstName} ${lastName}`;
+console.log(fullName);
+let myStory = `Hi! my name is ${fullName}`;
+myStory = `${myStory}\nI live in ${city}`;
+myStory = `${myStory}\nIn my pasttime I like to ${pasttime}`;
+
+console.log(myStory);
